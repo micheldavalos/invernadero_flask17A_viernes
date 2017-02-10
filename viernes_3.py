@@ -13,7 +13,7 @@ class administrador():
 
         self.db.commit()
 
-    def mostar(self):
+    def mostrar(self):
         self.c.execute("SELECT * FROM usuario")
         for e in self.c:
             print(e)

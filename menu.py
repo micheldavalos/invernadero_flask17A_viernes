@@ -29,4 +29,3 @@ class menu():
         return [nombre, apellido1, apellido2, correo, password, tipo]
 
 m = menu()
-print(m.menu_usuario())
